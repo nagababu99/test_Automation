@@ -1,0 +1,110 @@
+package cloud.rehlat.constants.engine;
+
+public class EngineConstants {
+
+	// Copyright
+	public static final String CANOPY_COPYRIGHT = "� 2017 Mesitis Pte Ltd";
+
+	// Page Titles
+	public static final String TITLE_CANOPY_ENGINE = "Canopy Engine";
+	public static final String TITLE_HOMEPAGE = "Help";
+	public static final String TITLE_ACCOUNTS = "Accounts";
+	public static final String TITLE_ACCOUNT_HOLDINGS = "Account Holdings";
+	public static final String TITLE_GROUPS = "Groups";
+	public static final String TITLE_SECURITY_SEARCH = "Security Search";
+	public static final String TITLE_SECURITY_PRICES = "Security Prices";
+	public static final String TITLE_MANUAL_SECURITY_CREATION = "Manual Security Creation";
+	public static final String TITLE_NAV_CALCULATION = "NAV Calculation";
+	public static final String TITLE_NAV_HISTORY = "NAV History";
+	public static final String TITLE_TRANSACTIONS_BLOTTER = "Transaction Blotters";
+	public static final String TITLE_MANUAL_TRANSACTION = "Manual Transaction";
+	public static final String TITLE_PRE_PROCESSED_TRANSACTIONS = "Pre-Processed Transactions";
+	public static final String TITLE_REPORTS_TEMPLATE_DESIGN = "Manage reports";
+	public static final String TITLE_Stashboard = "Stashboard";
+
+	public static final String HEADER_SECURITY_PRICES = "SECURITY PRICES";
+
+	// admin Tab
+
+	public static final String TITLE_Data_Consistency_Check = "Data Consistency Check";
+
+	// Manual Security types
+	public static final String MANUAL_SECURITY_EQUITY = "EQUITY";
+	public static final String MANUAL_SECURITY_CODE = "AAPL_US";
+	public static final String MANUAL_SECURITY_CLOSE_PRICE = "170";
+	public static final String MANUAL_SECURITY_DESCRIPTION = "Apple Inc USD US0378331005";
+	public static final String MANUAL_AUTOMATION_SECURITY_DESCRIPTION = "automation SGD";
+
+	// Contract Type Headers
+	public static final String CONTRACT_TYPE_CASH = "CASH";
+	public static final String CONTRACT_TYPE_EQUITIES = "EQUITIES";
+	public static final String CONTRACT_TYPE_BONDS = "BONDS";
+	public static final String CONTRACT_TYPE_FUNDS = "FUNDS";
+	public static final String CONTRACT_TYPE_DERIVATIVES = "DERIVATIVES";
+	public static final String CONTRACT_TYPE_NON_MARK_TO_MARKET = "NON-MARK-TO-MARKET";
+	public static final String CONTRACT_TYPE_INSURANCE = "INSURANCE";
+	public static final String CONTRACT_TYPE_REAL_ESTATE = "REAL-ESTATE";
+	public static final String CONTRACT_TYPE_OTHERS = "OTHERS";
+
+	// Common constants
+	public static final String TABLE_NO_ITEMS = "";
+	public static final String TABLE_NO_ITEMS_TO_DISPLAY = "No items to display";
+	public static final String TABLE_NO_RECORDS_AVAILABLE = "No records available.";
+
+	// Success Messages
+	public static final String SUCCESS_NAV_CALCULATION = "NAV calculation task is triggered for user(s): ";
+	public static final String SUCCESS_TXN_UPLOAD_PARTIAL = "Step was successful for 1 transaction(s). Amendment(s) or new transaction(s) will be reflected shortly.";
+	public static final String SUCCESS_TXN_UPLOAD_COMPLETE = "Upload completed. Step was successful for 1 transaction(s).";
+
+	// Column Selector Values
+	public static final String COLUMN_SELECTOR_UPDATED_AT = "Updated At";
+
+	// Reports Table Of Contents
+	public static final String REPORT_TABLE_OF_CONTENTS_HEADER = "STATEMENT OF ACCOUNTS";
+	public static final String REPORT_TABLE_OF_CONTENTS_PORTFOLIO = "Portfolio:";
+	public static final String REPORT_TABLE_OF_CONTENTS_DATE_CURRENCY = "Date As Of:Reference Currency:";
+	public static final String REPORT_TABLE_OF_CONTENTS = "Table of Contents";
+	public static final String REPORT_TABLE_OF_CONTENTS_NETWORTH = "Net Worth By Custodian";
+	public static final String REPORT_TABLE_OF_CONTENTS_ASSET_CLASS = "Asset Allocation By Asset Class";
+	public static final String REPORT_TABLE_OF_CONTENTS_CURRENCY = "Asset Allocation By Currency";
+	public static final String REPORT_TABLE_OF_CONTENTS_GEOGRAPHY = "Asset Allocation By Geography";
+	public static final String REPORT_TABLE_OF_CONTENTS_INDUSTRY = "Asset Allocation By Industry";
+	public static final String REPORT_TABLE_OF_CONTENTS_PERFORMANCE_CHART = "Performance Chart";
+	public static final String REPORT_TABLE_OF_CONTENTS_BENCHMARKS = "Perfomance against Benchmarks";
+	public static final String REPORT_TABLE_OF_CONTENTS_HOLDINGS_CASH = "Holdings - Cash";
+	public static final String REPORT_TABLE_OF_CONTENTS_HOLDINGS_FIXED_INCOME = "Holdings - Fixed Income";
+	public static final String REPORT_TABLE_OF_CONTENTS_HOLDINGS = "Holdings";
+	public static final String REPORT_TABLE_OF_CONTENTS_TRANSACTIONS = "Transactions";
+	public static final String REPORT_TABLE_OF_CONTENTS_FOREX_RATES = "Foreign Exchange Rates";
+	public static final String REPORT_TABLE_OF_CONTENTS_DISCLAIMER = "Disclaimer";
+
+	// Title of normalizedpage
+	public static final String TITLE_NORMALIZED = "Normalized Data";
+
+	// User Menus
+
+	public static final String[] SA_USER_MENUS = { "FILE DATA EXTRACTION", "DATA UPLOAD", "NET ASSET VALUE",
+			"TRANSACTIONS", "SECURITIES", "USER ACCOUNTS", "REPORTS", "ADMIN", "SYSTEM CHECK", "EXPERIMENTAL", "LOGS",
+			"HELP/REFERENCE" };
+
+	public static final String[] EM_USER_MENUS = { "FILE DATA EXTRACTION", "DATA UPLOAD", "NET ASSET VALUE",
+			"TRANSACTIONS", "SECURITIES", "USER ACCOUNTS", "REPORTS", "ADMIN", "SYSTEM CHECK", "EXPERIMENTAL", "LOGS",
+			"HELP/REFERENCE" };
+
+	public static final String[] PA_USER_MENUS = { "FILE DATA EXTRACTION", "DATA UPLOAD", "NET ASSET VALUE",
+			"TRANSACTIONS", "SECURITIES", "USER ACCOUNTS", "REPORTS", "ADMIN", "LOGS", "HELP/REFERENCE" };
+	public static final String[] CU_USER_MENUS = { "FILE DATA EXTRACTION", "DATA UPLOAD", "NET ASSET VALUE",
+			"TRANSACTIONS", "SECURITIES", "USER ACCOUNTS", "REPORTS", "ADMIN", "LOGS", "HELP/REFERENCE" };
+
+	public static final String[] RM_USER_MENUS = { "FILE DATA EXTRACTION", "DATA UPLOAD", "NET ASSET VALUE",
+			"TRANSACTIONS", "SECURITIES", "USER ACCOUNTS", "REPORTS", "ADMIN", "LOGS", "HELP/REFERENCE" };
+
+	// Table Data
+
+	public static final String[] TABLE_DATA = { "siva_automation01-abbygb2l-01-aed-07",
+			"siva_automation01-abbygb2l-01-aud-04", "siva_automation01-abbygb2l-01-aud-05",
+			"siva_automation01-abbygb2l-01-gbp-09", "siva_automation01-abbygb2l-01-hkd-06",
+			"siva_automation01-abbygb2l-01-sgd-08", "siva_automation01-abbygb2l-01-usd-01",
+			"siva_automation01-abbygb2l-01-usd-02", "siva_automation01-abbygb2l-01-usd-03" };
+
+}
